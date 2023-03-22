@@ -10,7 +10,7 @@ export const Container = styled.button`
   border: none;
   transition: all 0.3s linear;
   border-radius: 50%;
-  background: linear-gradient(225deg, #916BE3 0%, #61CCE3 100%);
+  background: linear-gradient(225deg, #1B69D2 0%, #07346F 100%);
 
   > img {
     width: 22px;
