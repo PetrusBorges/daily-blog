@@ -1,9 +1,12 @@
+import { BrowserRouter } from 'react-router-dom';
+
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from '../../assets/styles/global';
 
 import { ThemeButton } from '../ThemeButton';
 
 import { useChangeTheme } from '../../hooks/useChangeTheme';
+import { Header } from '../Header';
 
 export function App() {
 
@@ -14,15 +17,16 @@ export function App() {
   } = useChangeTheme();
 
   return (
-    <ThemeProvider theme={currentTheme}>
-      <GlobalStyles />
-
-      <ThemeButton
-        selectedTheme={theme}
-        onClick={handleToggleTheme}
-      />
-      <h1>Hello</h1>
-    </ThemeProvider>
+    <BrowserRouter>
+      <ThemeProvider theme={currentTheme}>
+        <GlobalStyles />
+        <Header />
+        <ThemeButton
+          selectedTheme={theme}
+          onClick={handleToggleTheme}
+        />
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
 
