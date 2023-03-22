@@ -3,9 +3,9 @@ import { defaultTheme } from './default';
 
 const dark: DefaultTheme = {
   ...defaultTheme,
-  background: '#151B26',
-  cardBackground: '#06090F',
-  cardBorderColor: '#E8EBF0',
+  background: '#0E1217',
+  cardBackground: '#1C1F26',
+  cardBorderColor: '#383D47',
   textColor: '#D8DBE3',
 };
 

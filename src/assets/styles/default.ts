@@ -6,10 +6,10 @@ const defaultTheme: DefaultTheme = {
     blueLight: '#5390E3',
     blueDark: '#1357B3',
   },
-  background: '#F7F9FC',
-  cardBackground: '#D8DBE3',
-  cardBorderColor: '#0F141F',
-  textColor: '#717274',
+  background: '#FFFFFF',
+  cardBackground: '#F5F8FC',
+  cardBorderColor: '#D4D8DE',
+  textColor: '#0E1217',
 };
 
 export { defaultTheme };
