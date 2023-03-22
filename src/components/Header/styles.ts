@@ -93,13 +93,12 @@ export const DropdownMenuMobile = styled.div<DropdownMenuMobileProps>`
   gap: 10px;
   width: 200px;
   background-color: ${({ theme }) => theme.cardBackground};
-  animation: ${showMenu} 1s forwards;
   border: 1px solid ${({ theme }) => theme.cardBorderColor};
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 
   ${({ isVisible }) => isVisible && css`
-    right: 0px;
+    animation: ${showMenu} 1s forwards;
   `}
 
   > a {
