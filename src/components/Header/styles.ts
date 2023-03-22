@@ -21,7 +21,6 @@ export const Container = styled.header`
   height: 82px;
   width: 100%;
   z-index: 99;
-  background: rgba(6, 9, 15, 0.3);
   border-bottom: 1px solid ${({ theme }) => theme.cardBorderColor};
   backdrop-filter: blur(8px);
 `;
