@@ -10,6 +10,8 @@ export default createGlobalStyle`
 
   body {
     font-size: 16px;
+    background: ${({ theme }) => theme.background};
+    transition: background 0.3s linear;
   }
 
   button {
