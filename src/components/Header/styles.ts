@@ -22,7 +22,7 @@ export const Container = styled.header`
   width: 100%;
   z-index: 99;
   background: rgba(6, 9, 15, 0.3);
-  border: 1px solid #151B26;
+  border-bottom: 1px solid ${({ theme }) => theme.cardBorderColor};
   backdrop-filter: blur(8px);
 `;
 
@@ -84,7 +84,7 @@ export const NavigateMobile = styled.button`
 
 export const DropdownMenuMobile = styled.div<DropdownMenuMobileProps>`
   position: absolute;
-  top: 82px;
+  top: 95px;
   right: 0;
   display: flex;
   align-items: flex-start;
