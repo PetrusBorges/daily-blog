@@ -1,12 +1,13 @@
 import { BrowserRouter } from 'react-router-dom';
+import { ReactRoutes } from '../../routes';
 
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from '../../assets/styles/global';
 
+import { Header } from '../Header';
 import { ThemeButton } from '../ThemeButton';
 
 import { useChangeTheme } from '../../hooks/useChangeTheme';
-import { Header } from '../Header';
 
 export function App() {
 
@@ -25,6 +26,8 @@ export function App() {
           selectedTheme={theme}
           onClick={handleToggleTheme}
         />
+
+        <ReactRoutes />
       </ThemeProvider>
     </BrowserRouter>
   );
