@@ -3,8 +3,8 @@ import { defaultTheme } from './default';
 
 const light: DefaultTheme = {
   ...defaultTheme,
-  background: '#FFFFFF',
-  cardBackground: '#F5F8FC',
+  background: '#F2F6F7',
+  cardBackground: '#FAFCFC',
   cardBorderColor: '#D4D8DE',
   textColor: '#0E1217',
 };

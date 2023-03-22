@@ -6,8 +6,8 @@ const defaultTheme: DefaultTheme = {
     blueLight: '#5390E3',
     blueDark: '#1357B3',
   },
-  background: '#FFFFFF',
-  cardBackground: '#F5F8FC',
+  background: '#F2F6F7',
+  cardBackground: '#FAFCFC',
   cardBorderColor: '#D4D8DE',
   textColor: '#0E1217',
 };
