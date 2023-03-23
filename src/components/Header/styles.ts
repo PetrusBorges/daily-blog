@@ -24,6 +24,7 @@ export const Container = styled.header`
   border-bottom: 1px solid ${({ theme }) => theme.cardBorderColor};
   backdrop-filter: blur(8px);
   padding: 0 20px;
+  position: fixed;
 `;
 
 export const Content = styled.div`
