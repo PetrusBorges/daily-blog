@@ -38,7 +38,7 @@ export const ContainerNavigation = styled.div`
   width: 100%;
   max-width: 1216px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 `;
 
