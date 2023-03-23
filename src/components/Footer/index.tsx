@@ -78,7 +78,7 @@ export function Footer() {
         </ContainerNavigation>
 
         <ContainerSocial>
-          <small>2022 | Todos os direitos reservados.</small>
+          <small>2023 | Todos os direitos reservados.</small>
 
           <ContainerSocialLink>
             <Link to='/'>
