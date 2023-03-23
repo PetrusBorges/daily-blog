@@ -6,7 +6,7 @@ interface PageHeaderProps {
   logoHeader: string;
   title: string;
   description: string;
-  onChange?: () => void;
+  onChange?: (event: React.ChangeEvent<HTMLSelectElement>) => void;
 }
 
 export function PageHeader({ logoHeader, title, description, onChange }: PageHeaderProps) {
@@ -27,9 +27,8 @@ export function PageHeader({ logoHeader, title, description, onChange }: PageHea
 
         {location.pathname === '/about' ? null : (
           <Select onChange={onChange}>
-            <option value="filterByFetchData">Filtrar por Padrão</option>
-            <option value="filterByAlphabet">Filtrar por ordem alfabética</option>
-            <option value="filterByCourses">Filtrar por quantidade de cursos</option>
+            <option value="filteredUsersByFetchData">Filtrar por Padrão</option>
+            <option value="filteredUsersByAlphabet">Filtrar por ordem alfabética</option>
           </Select>
         )}
       </Content>
