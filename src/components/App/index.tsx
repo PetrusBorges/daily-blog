@@ -6,6 +6,7 @@ import GlobalStyles from '../../assets/styles/global';
 
 import { Header } from '../Header';
 import { ThemeButton } from '../ThemeButton';
+import { Footer } from '../Footer';
 
 import { useChangeTheme } from '../../hooks/useChangeTheme';
 
@@ -28,6 +29,8 @@ export function App() {
         />
 
         <ReactRoutes />
+
+        <Footer />
       </ThemeProvider>
     </BrowserRouter>
   );
