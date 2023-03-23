@@ -21,6 +21,7 @@ export function Header() {
       <Content>
         <Link to='/'>
           <img src={Logo} alt="Logo" />
+          DAILY BLOG.
         </Link>
 
         <Navigate>

@@ -23,6 +23,7 @@ export const Container = styled.header`
   z-index: 99;
   border-bottom: 1px solid ${({ theme }) => theme.cardBorderColor};
   backdrop-filter: blur(8px);
+  padding: 0 20px;
 `;
 
 export const Content = styled.div`
@@ -33,14 +34,17 @@ export const Content = styled.div`
   justify-content: space-between;
 
   > a {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: ${({ theme }) => theme.color.blue };
+
     > img {
       width: 37px;
       height: 47px;
     }
-  }
-
-  @media ${device.laptopM} {
-    padding: 0 20px;
   }
 `;
 
