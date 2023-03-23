@@ -1,5 +1,9 @@
+import { SvgElipse } from '../../components/SvgElipse';
+
 export function Home() {
   return (
-    <h1>home</h1>
+    <>
+      <SvgElipse />
+    </>
   );
 }
