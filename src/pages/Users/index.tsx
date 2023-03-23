@@ -1,5 +1,13 @@
+import PageHeaderUsers from '../../assets/icons/pageHeaderUsers.svg';
+
+import { PageHeader } from '../../components/PageHeader';
+
 export function Users() {
   return (
-    <h1>Users</h1>
+    <PageHeader
+      logoHeader={PageHeaderUsers}
+      title='Usuários'
+      description='Veja todos os usuários cadastrados!'
+    />
   );
 }
