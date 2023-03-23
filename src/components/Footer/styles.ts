@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../responsiveDevice';
 
 export const Container = styled.footer`
   display: flex;
@@ -40,6 +41,12 @@ export const ContainerNavigation = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media ${device.laptop} {
+    justify-content: center;
+    gap: 30px;
+  }
 `;
 
 export const ContainerInfo = styled.div`
@@ -111,6 +118,11 @@ export const ContainerFooter = styled.div`
       color: ${({ theme }) => theme.textColor};
     }
   }
+
+  @media ${device.mobileL} {
+    gap: 8px;
+    flex-direction: column;
+  }
 `;
 
 export const ContainerSocial = styled.div`
@@ -123,6 +135,11 @@ export const ContainerSocial = styled.div`
 
   > small {
     color: ${({ theme }) => theme.textColor};
+  }
+
+  @media ${device.mobileL} {
+    gap: 30px;
+    flex-direction: column;
   }
 `;
 
