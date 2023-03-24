@@ -2,19 +2,18 @@ import Logo from '../../assets/icons/blog.svg';
 import MobileIconClose from '../../assets/icons/mobileIconClose.svg';
 import MobileIconOpen from '../../assets/icons/mobileIconOpen.svg';
 
-import { useState } from 'react';
-
 import { Link } from 'react-router-dom';
 
 import { Container, Content, Navigate, NavigateMobile, DropdownMenuMobile } from './styles';
 
+import { useHeader } from '../../hooks/useHeader';
+
 export function Header() {
 
-  const [ isMobileOpen, setIsMobileOpen ] = useState(false);
-
-  function handleToggleMobileOpen() {
-    setIsMobileOpen((prevState) => !prevState);
-  }
+  const {
+    isMobileOpen,
+    handleToggleMobileOpen,
+  } = useHeader();
 
   return (
     <Container>
