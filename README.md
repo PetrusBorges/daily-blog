@@ -15,22 +15,10 @@ A equipe recebeu uma demanda para desenvolver um front-end para uma API RESTful.
 
 ## Como usar a aplicação
 
-- Clone o projeto e acesse a pasta com os comandos abaixo;
+- Clone o projeto, acesse a pasta, atualizade as dependências e rode o projeto no `localhost` com o comando abaixo:
 
 ```sh
-git clone https://github.com/PetrusBorges/daily-blog.git && cd daily-blog
-```
-
-- Na pasta raiz do projeto instale as dependências com o comando abaixo;
-
-```sh
-yarn
-```
-
-- Logo em seguida rode o projeto com o comando abaixo;
-
-```sh
-yarn dev
+git clone https://github.com/PetrusBorges/daily-blog.git && cd daily-blog && yarn && yarn dev
 ```
 
 ## Feito com
