@@ -53,6 +53,7 @@ export const Overlay = styled.div<AnimationProps>`
   background: rgba(0, 0, 0, 0.6);
   z-index: 100;
   animation: ${fadeIn} 0.3s;
+  padding: 0 16px;
 
   ${({ isVisible }) => isVisible && css`
     animation: ${fadeOut} 0.3s forwards;

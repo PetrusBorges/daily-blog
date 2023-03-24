@@ -17,6 +17,10 @@ export const Content = styled.div`
   justify-content: center;
   flex-direction: column;
   gap: 80px;
+
+  @media ${device.mobileM} {
+    font-size: 14px;
+  }
 `;
 
 export const ContainerInfo = styled.div`
