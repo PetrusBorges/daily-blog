@@ -1,14 +1,14 @@
 import PostNotFoundImage from '../../assets/icons/postIcon.svg';
 import ShareIcon from '../../assets/icons/shareIcon.svg';
 
-import { PostsCardProps } from '../../types/postsCard';
 import { Button } from '../Button';
+import { Modal } from '../../components/Modal';
 
 import { Container, Content, PostCard, PostCardComunity } from './styles';
 
-import { Modal } from '../../components/Modal';
-
 import { usePostsCard } from '../../hooks/usePostsCard';
+
+import { PostsCardProps } from '../../types/postsCard';
 
 export function PostsCard({ postCard }: PostsCardProps) {
 
