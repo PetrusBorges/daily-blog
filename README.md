@@ -1,9 +1,9 @@
-![image](https://user-images.githubusercontent.com/105453766/218283479-4cbfdfd3-7bd1-4745-bbdf-d4d31388c834.png)
+![image](https://user-images.githubusercontent.com/105453766/227580348-52be57a1-d4e1-4da0-995d-85681deceac5.png)
 
-DEPLOY da aplicação: [Teste prático Front End](https://projeto-final-front-end-staart.netlify.app)
+DEPLOY da aplicação: [Teste prático Front End](https://test-front-end-daily-blog.netlify.app)
 
 ## Demostração
-https://user-images.githubusercontent.com/105453766/225408276-3733262c-4d47-4f64-ba9c-818009a36fce.mp4
+https://user-images.githubusercontent.com/105453766/227587405-acf118d1-bb2c-471f-9d04-0fe537c7b0bd.mp4
 
 ## Daily Blog
 
