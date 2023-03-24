@@ -9,6 +9,10 @@ https://user-images.githubusercontent.com/105453766/225408276-3733262c-4d47-4f64
 
 Esse projeto foi desenvolvido para o teste técnico de Desenvolvedor Front End. O projeto consiste em uma aplicação web de controle de posts em um blog com possibilidade de visualizar os usuários que interagiram com o post selecionado e suas informações pessoais.
 
+## Desafio
+
+A equipe recebeu uma demanda para desenvolver um front-end para uma API RESTful. No cenário proposto, a interface deve exibir posts de um blog e, ao clicar em um post, os comentários associados.
+
 ## Como usar a aplicação
 
 - Clone o projeto e acesse a pasta com os comandos abaixo;
@@ -39,7 +43,7 @@ yarn dev
 - [React Router Dom](https://reactrouter.com/en/main)
 - [Styled Components](https://styled-components.com/)
 
-## ✒️ Autores
+## Autor
 
 [Petrus Borges - GitHub](https://github.com/PetrusBorges)
 
