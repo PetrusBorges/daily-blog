@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+
 import { SvgTecnologies } from '../SvgTecnologies';
 
 import { Container, Content, ContainerInfo, ContainerTecnologies, ContainerList, AlignSvg, ContainerSocials } from './styles';
