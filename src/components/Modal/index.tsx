@@ -1,6 +1,8 @@
+import PostNotFoundImage from '../../assets/icons/postIcon.svg';
 import UserNotFoundImage from '../../assets/icons/pageHeaderUsers.svg';
 import IconClose from '../../assets/icons/mobileIconClose.svg';
 
+import { VerticalScroll } from '../Slider';
 import { ReactPortal } from '../ReactPortal';
 
 import { Overlay, Container, Header, PostContent, HeaderComentary, PostComentary, PostComentaryCard, UserInfo } from './styles';
@@ -48,27 +50,31 @@ export function Modal({ isVisible, handleCloseModal, postModal, comentaryPost }:
           </Header>
           <PostContent>
             <p>{postModal.body}</p>
+
+            <img src={PostNotFoundImage} alt="PostNotFoundImage" />
           </PostContent>
 
           <HeaderComentary>
             Comentários
           </HeaderComentary>
 
-          {comentaryPost.map((comentaryPost) => (
-            <PostComentary
-              key={comentaryPost.id}
-            >
-              <PostComentaryCard>
-                <img src={UserNotFoundImage} alt="UserNotFoundImage" />
-                <UserInfo>
-                  <p>{comentaryPost.name}</p>
-                  <p>{comentaryPost.email}</p>
-                </UserInfo>
-              </PostComentaryCard>
+          <VerticalScroll>
+            {comentaryPost.map((comentaryPost) => (
+              <PostComentary
+                key={comentaryPost.id}
+              >
+                <PostComentaryCard>
+                  <img src={UserNotFoundImage} alt="UserNotFoundImage" />
+                  <UserInfo>
+                    <p>{comentaryPost.name}</p>
+                    <p>{comentaryPost.email}</p>
+                  </UserInfo>
+                </PostComentaryCard>
 
-              <p>{comentaryPost.body}</p>
-            </PostComentary>
-          ))}
+                <p>{comentaryPost.body}</p>
+              </PostComentary>
+            ))}
+          </VerticalScroll>
         </Container>
       </Overlay>
     </ReactPortal>
