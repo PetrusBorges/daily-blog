@@ -21,6 +21,6 @@ export const Container = styled.button`
 
   &[disabled] {
     cursor: not-allowed !important;
-    background: gray !important;
+    background: transparent !important;
   }
 `;
