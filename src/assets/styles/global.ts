@@ -21,4 +21,15 @@ export default createGlobalStyle`
   a {
     text-decoration: none;
   }
+
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  body::-webkit-scrollbar-track {
+    background: ${({ theme }) => theme.background};
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.color.blueLight};
+    border-radius: 20px;
+  }
 `;
