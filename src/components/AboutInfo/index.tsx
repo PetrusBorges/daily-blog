@@ -45,7 +45,7 @@ export function AboutInfo() {
               to='https://vitejs.dev'
               target="_blank"
             >
-            ViteJS
+            Vite.js
             </Link>
 
             <Link
