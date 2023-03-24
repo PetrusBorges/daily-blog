@@ -6,7 +6,7 @@ interface ReactPortalProps {
 }
 
 export function ReactPortal({ children, containerId }: ReactPortalProps) {
-  let container = document.querySelector(containerId);
+  let container = document.getElementById(containerId);
 
   if (!container) {
     container = document.createElement('div');
