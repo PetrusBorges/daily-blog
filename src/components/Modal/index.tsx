@@ -1,11 +1,11 @@
 import UserNotFoundImage from '../../assets/icons/pageHeaderUsers.svg';
 import IconClose from '../../assets/icons/mobileIconClose.svg';
 
-import { useAnimateUnmount } from '../../hooks/useAnimateUnmount';
-
 import { ReactPortal } from '../ReactPortal';
 
 import { Overlay, Container, Header, PostContent, HeaderComentary, PostComentary, PostComentaryCard, UserInfo } from './styles';
+
+import { useAnimateUnmount } from '../../hooks/useAnimateUnmount';
 
 import { PostModal } from '../../types/postsCard';
 import { ComentaryPostInfo } from '../../types/comentaryPost';
