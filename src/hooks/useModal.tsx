@@ -6,7 +6,7 @@ import { api } from '../utils/api';
 
 import { ComentaryPostInfo } from '../types/comentaryPost';
 
-export function usePostsCard() {
+export function useModal() {
   const [ isVisible, setIsVisible ] = useState(false);
   const [ postModal, setPostModal ] = useState<null | PostModal>(null);
   const [ comentaryPost, setComentaryPost ] = useState<ComentaryPostInfo[]>([]);
