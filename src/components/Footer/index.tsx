@@ -5,6 +5,7 @@ import IconTwitter from '../../assets/icons/icon-twitter.svg';
 import IconYoutube from '../../assets/icons/icon-youtube.svg';
 
 import { Link } from 'react-router-dom';
+
 import { Button } from '../Button';
 
 import { Container, Content, ContainerNavigation, ContainerInfo, ContainerInfoNews, ContainerFooter, ContainerSocial, ContainerSocialLink } from './styles';
