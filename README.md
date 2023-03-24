@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/105453766/227580348-52be57a1-d4e1-4da0-995d-85681deceac5.png)
+![image](https://user-images.githubusercontent.com/105453766/227587895-a5920b06-54f6-4f1b-a121-8e0f8decdb5a.png)
 
 DEPLOY da aplicação: [Teste prático Front End](https://test-front-end-daily-blog.netlify.app)
 
