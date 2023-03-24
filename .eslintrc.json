@@ -21,6 +21,7 @@
     ],
     "rules": {
       "react/react-in-jsx-scope": "off",
+      "no-empty": "off",
         "indent": [
             "error",
             2
