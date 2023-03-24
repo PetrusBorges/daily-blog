@@ -14,4 +14,5 @@ export interface PostCardInfo {
 
 export interface PostsCardProps {
   postCard: PostCardInfo[];
+  handleToggleModal: (id: number) => void;
 }
