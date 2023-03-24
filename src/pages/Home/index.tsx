@@ -1,10 +1,13 @@
 import PageHeaderRecent from '../../assets/icons/pageHeaderRecent.svg';
 
+import { useModal } from '../../hooks/useModal';
 import { SvgElipse } from '../../components/SvgElipse';
 import { PageHeader } from '../../components/PageHeader';
 import { PostsCard } from '../../components/PostsCard';
 
 import { useHome } from '../../hooks/useHome';
+import { Modal } from '../../components/Modal';
+
 
 export function Home() {
 
@@ -13,8 +16,23 @@ export function Home() {
     handleSelectChange
   } = useHome();
 
+  const {
+    isVisible,
+    postModal,
+    comentaryPost,
+    handleToggleModal,
+    handleCloseModal,
+  } = useModal();
+
   return (
     <>
+      <Modal
+        isVisible={isVisible}
+        handleCloseModal={handleCloseModal}
+        postModal={postModal}
+        comentaryPost={comentaryPost}
+      />
+
       <SvgElipse />
       <PageHeader
         logoHeader={PageHeaderRecent}
@@ -25,6 +43,7 @@ export function Home() {
 
       <PostsCard
         postCard={postCard}
+        handleToggleModal={handleToggleModal}
       />
     </>
   );
