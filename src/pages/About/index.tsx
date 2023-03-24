@@ -1,6 +1,6 @@
 import PageHeaderAbout from '../../assets/icons/pageHeaderAbout.svg';
-import { AboutInfo } from '../../components/AboutInfo';
 
+import { AboutInfo } from '../../components/AboutInfo';
 import { PageHeader } from '../../components/PageHeader';
 
 export function About() {
