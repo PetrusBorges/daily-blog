@@ -2,33 +2,15 @@ import PostNotFoundImage from '../../assets/icons/postIcon.svg';
 import ShareIcon from '../../assets/icons/shareIcon.svg';
 
 import { Button } from '../Button';
-import { Modal } from '../../components/Modal';
 
 import { Container, Content, PostCard, PostCardComunity } from './styles';
 
-import { usePostsCard } from '../../hooks/usePostsCard';
-
 import { PostsCardProps } from '../../types/postsCard';
 
-export function PostsCard({ postCard }: PostsCardProps) {
-
-  const {
-    isVisible,
-    postModal,
-    comentaryPost,
-    handleToggleModal,
-    handleCloseModal,
-  } = usePostsCard();
+export function PostsCard({ postCard, handleToggleModal }: PostsCardProps) {
 
   return (
     <>
-      <Modal
-        isVisible={isVisible}
-        handleCloseModal={handleCloseModal}
-        postModal={postModal}
-        comentaryPost={comentaryPost}
-      />
-
       <Container>
         <Content>
           {postCard.map((postCard) => (
